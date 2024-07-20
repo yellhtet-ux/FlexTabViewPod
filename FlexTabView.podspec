@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 'Custom tab bar for UIKit.Just generate view controllers from boiler plate codes and then assign them into the tab bar controllers.'
                        DESC
 
-  s.homepage         = 'https://github.com/80539872/FlexTabView'
+  s.homepage         = 'https://github.com/yellhtet-ux/FlexTabViewPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ye Andrew Hardin' => 'greyhorror30@gmail.com' }
-  s.source           = { :git => 'https://github.com/80539872/FlexTabView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/yellhtet-ux/FlexTabViewPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
