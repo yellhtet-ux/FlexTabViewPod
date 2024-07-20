@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FlexTabView'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Custom tab bar for UIKit.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/yellhtet-ux/FlexTabViewPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Ye Andrew Hardin' => 'greyhorror30@gmail.com' }
+  s.author           = { 'Ye Andrew Htet' => 'greyhorror30@gmail.com' }
   s.source           = { :git => 'https://github.com/yellhtet-ux/FlexTabViewPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

@@ -2,23 +2,26 @@
 //  ViewController.swift
 //  FlexTabView
 //
-//  Created by 80539872 on 07/21/2024.
-//  Copyright (c) 2024 80539872. All rights reserved.
+//  Created by Andrew Hardin on 07/21/2024.
+//  Copyright (c) 2024 Andrew Hardin. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.view.backgroundColor = .white
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+  
+    /*
+    private func UISetUp () {
+        let firstVC = self.generateViewControllerWithSystemImage(viewController: FirstExampleViewController(), titleName: "Home", imageName: "house.fill")
+        let secondVC = self.generateViewControllerWithSystemImage(viewController: SecondExampleViewController(), titleName: "Notification", imageName: "bell.fill")
+        self.viewControllers = [firstVC,secondVC]
+    } 
+      */
 
 }
 
