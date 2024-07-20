@@ -22,7 +22,7 @@ pod 'FlexTabView'
 
 ## Author
 
-80539872, andrewhardin@onenex.co
+Ye Andrew Htet, greyhorror30@gmail.com
 
 ## License
 
