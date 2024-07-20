@@ -1,0 +1,6 @@
+framework module FlexTabView {
+  umbrella header "FlexTabView-umbrella.h"
+
+  export *
+  module * { export * }
+}
